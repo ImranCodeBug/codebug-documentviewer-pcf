@@ -1,0 +1,101 @@
+/* StaticTagBox.css */
+.tag-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  /* border: 1px solid #d1d1d1; */
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e6f0ff;
+  color: #004578;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tag-icon {
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+}
+
+.loader-label {
+  color: #0078d4;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* ---------------------------- */
+
+.tag-loader {
+  display: flex;
+  align-items: center;   /* 👈 aligns items vertically */
+  justify-content: center;
+  gap: 8px;              /* spacing between icon and text */
+  padding: 8px;
+}
+
+.hourglass-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  animation: pulse 1.2s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+  color: #0078d4;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* -------------------------------------------------------------------- */
+.warning-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+}
+
+.warning-icon {
+  color: #f4b400; /* Google-style yellow */
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.warning-label {
+  font-size: 14px;
+  font-weight: 500;
+  color:rgb(36, 36, 36);
+}
+
+.tag-link {
+  text-decoration: none;
+  color: inherit;
+}
+.tag-link:hover .tag {
+  background-color: #c7e0f4;
+  text-decoration: underline;
+
+}
