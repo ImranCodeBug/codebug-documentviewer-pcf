@@ -1,4 +1,5 @@
 # codebug-documentviewer-pcf
+[![Build Status](https://dev.azure.com/code-bug/code-bug/_apis/build/status%2FGitHub%2FImranCodeBug.codebug-documentviewer-pcf?branchName=main)](https://dev.azure.com/code-bug/code-bug/_build/latest?definitionId=27&branchName=main)
 
 PowerApps Component Framework (PCF) control to list and download Note (annotation) attachments from Dataverse.
 
