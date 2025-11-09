@@ -36,3 +36,6 @@ PowerApps Component Framework (PCF) control to list and download Note (annotatio
 - Styles live in [DocumentViewer/styles.css](DocumentViewer/styles.css).
 - Generated files are ignored (see .gitignore). Build artifacts are output to `out/controls` per [pcfconfig.json](pcfconfig.json).
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
