@@ -52,13 +52,13 @@ steps:
 
 - task: GitHubRelease@1
   inputs:
-    gitHubConnection: 'github.com_ImranCodeBug'
+    gitHubConnection: 'ImranCodeBug'
     repositoryName: '$(Build.Repository.Name)'
     action: 'create'
     target: '$(Build.SourceVersion)'
     tagSource: 'userSpecifiedTag'
     tag: 'Codebug-$(Build.BuildNumber)'
     title: 'Release Main Branch'
-    assets: '$(System.DefaultWorkingDirectory)/Solutions/bin/Debug/*.zip'
+    assets: '$(System.DefaultWorkingDirectory)/CodebugNotesAttachmentViewer/bin/Debug/*.zip'
     changeLogCompareToRelease: 'lastFullRelease'
     changeLogType: 'commitBased'
