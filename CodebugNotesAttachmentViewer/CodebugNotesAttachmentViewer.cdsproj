@@ -16,7 +16,7 @@
     <SolutionRootPath>src</SolutionRootPath>
   </PropertyGroup>
   <PropertyGroup>
-    <SolutionPackageType>Managed</SolutionPackageType>    
+    <SolutionPackageType>Both</SolutionPackageType>    
   </PropertyGroup>
 
   <!-- 
