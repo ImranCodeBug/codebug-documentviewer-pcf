@@ -29,7 +29,8 @@ PowerApps Component Framework (PCF) control to list and download Note (annotatio
 - Uses the WebAPI feature to query annotation (Note) records for an entity and renders them as clickable tags.
 - Downloads attachment content (base64) via the Dataverse Web API and triggers a browser download (`AnnotationService`).
 
-
+> **Note**
+	this PCF is for model driven app only. inside the `index.ts` you will see that it is trying to fetch the client Url and the record id in which the component is being hosted. **Possibly** neither is supported action within a PCF
 
 ## Development notes
 - React 16 is used (see [package.json](package.json)).
