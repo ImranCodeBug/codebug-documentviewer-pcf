@@ -1,5 +1,12 @@
 # codebug-documentviewer-pcf
-[![Build Status](https://dev.azure.com/code-bug/code-bug/_apis/build/status%2FGitHub%2FImranCodeBug.codebug-documentviewer-pcf?branchName=main)](https://dev.azure.com/code-bug/code-bug/_build/latest?definitionId=27&branchName=main)
+
+<p align="center">
+	[![Build Status](https://dev.azure.com/code-bug/code-bug/_apis/build/status%2FGitHub%2FImranCodeBug.codebug-documentviewer-pcf?branchName=main)](https://dev.azure.com/code-bug/code-bug/_build/latest?definitionId=27&branchName=main)
+
+  <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=imran-chowdhury-aa160237" target="_blank">
+    <img src="https://img.shields.io/badge/Follow%20on%20LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="Follow on LinkedIn" />
+  </a>
+</p>
 
 PowerApps Component Framework (PCF) control to list and download Note (annotation) attachments from Dataverse.
 
